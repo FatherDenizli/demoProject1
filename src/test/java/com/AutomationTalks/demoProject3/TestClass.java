@@ -1,8 +1,9 @@
 package com.AutomationTalks.demoProject3;
 
+import java.net.MalformedURLException;
+ 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,29 +16,27 @@ public class TestClass {
 	
 	 @BeforeMethod
 		
-	    public void launchDriver() {
+	    public void launchDriver() throws MalformedURLException {
 
-       WebDriverManager.chromedriver().setup();
-         driver=new ChromeDriver();   
-         
-//         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//         driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
+     WebDriverManager.chromedriver().setup();
+     System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-116\\chromedriver-win64\\chromedriver.exe");
+       driver=new ChromeDriver();   
+     driver.manage().window().fullscreen();
+ 
 	         
-//         WebDriverManager.chromedriver().setup();
-//         ChromeOptions options = new ChromeOptions();
-//         options.addArguments("--remote-allow-origins=*");
-//         driver = new ChromeDriver(options);
-//	        driver.manage().window().maximize();
-
+ 
+         
+         
 	    }
 	 
 	   
 	 @Test
 	 
 	 public void Test1() throws InterruptedException {
- // driver.get("https://www.AutomationTalks.com/");
-  //Thread.sleep(5000);
+ 
+  
 		  driver.get("https://www.amazon.ca/");
+		Thread.sleep(5000);
 		 System.out.println("Test 1 title is  "+driver.getTitle());	 
 		 
 	 }
@@ -45,17 +44,17 @@ public class TestClass {
 @Test
 	 
 	 public void Test2() throws InterruptedException {
-		 //driver.get("https://www.AutomationTalks.com/");
-		// Thread.sleep(5000);
+	 
+	 
 	  driver.get("https://www.google.com/");
-		 System.out.println("Test 2 title is  "+driver.getTitle());	 
+	  System.out.println("Test 2 title is  "+driver.getTitle());	 
 		 
 	 }
 
 @Test
 
 public void Test3() {
-	 //driver.get("https://www.AutomationTalks.com/");
+	 
 	 driver.get("https://www.techproeducation.com/");
 	 System.out.println("Test 2 title is  "+driver.getTitle());	 
 	 
