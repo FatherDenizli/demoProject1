@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-12T01:33:28 EDT" name="Default suite" finished-at="2023-09-12T01:33:49 EDT" duration-ms="20212">
+  <suite started-at="2023-09-12T04:27:43 EDT" name="Default suite" finished-at="2023-09-12T04:27:54 EDT" duration-ms="10988">
     <groups>
     </groups>
-    <test started-at="2023-09-12T01:33:28 EDT" name="Default test" finished-at="2023-09-12T01:33:49 EDT" duration-ms="20212">
+    <test started-at="2023-09-12T04:27:43 EDT" name="Default test" finished-at="2023-09-12T04:27:54 EDT" duration-ms="10988">
       <class name="com.AutomationTalks.demoProject3.TestClass">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:28 EDT" name="launchDriver" finished-at="2023-09-12T01:33:32 EDT" duration-ms="3872" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:43 EDT" name="launchDriver" finished-at="2023-09-12T04:27:46 EDT" duration-ms="3265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:32 EDT" name="Test1" finished-at="2023-09-12T01:33:37 EDT" duration-ms="4700" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:46 EDT" name="Test1" finished-at="2023-09-12T04:27:47 EDT" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:37 EDT" name="tearDown" finished-at="2023-09-12T01:33:37 EDT" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:47 EDT" name="tearDown" finished-at="2023-09-12T04:27:47 EDT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:37 EDT" name="launchDriver" finished-at="2023-09-12T01:33:39 EDT" duration-ms="1960" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:47 EDT" name="launchDriver" finished-at="2023-09-12T04:27:48 EDT" duration-ms="1706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:39 EDT" name="Test2" finished-at="2023-09-12T01:33:43 EDT" duration-ms="3510" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:48 EDT" name="Test2" finished-at="2023-09-12T04:27:49 EDT" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:43 EDT" name="tearDown" finished-at="2023-09-12T01:33:43 EDT" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:49 EDT" name="tearDown" finished-at="2023-09-12T04:27:50 EDT" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:43 EDT" name="launchDriver" finished-at="2023-09-12T01:33:44 EDT" duration-ms="1862" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:50 EDT" name="launchDriver" finished-at="2023-09-12T04:27:51 EDT" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:44 EDT" name="Test3" finished-at="2023-09-12T01:33:48 EDT" duration-ms="4013" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:51 EDT" name="Test3" finished-at="2023-09-12T04:27:54 EDT" duration-ms="2369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:48 EDT" name="tearDown" finished-at="2023-09-12T01:33:49 EDT" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6c1a5b54]" started-at="2023-09-12T04:27:54 EDT" name="tearDown" finished-at="2023-09-12T04:27:54 EDT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

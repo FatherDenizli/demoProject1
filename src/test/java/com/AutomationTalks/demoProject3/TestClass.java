@@ -1,20 +1,13 @@
 package com.AutomationTalks.demoProject3;
 
- 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-//import io.github.bonigarcia.wdm.WebDriverManager;
- 
-
- 
-
- 
 
 public class TestClass {
 	
@@ -24,26 +17,37 @@ public class TestClass {
 		
 	    public void launchDriver() {
 
-	       WebDriverManager.chromedriver().setup();
-	        driver=new ChromeDriver();   
-	        
-	        driver.manage().window().maximize();
+       WebDriverManager.chromedriver().setup();
+         driver=new ChromeDriver();   
+         
+//         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//         driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
+	         
+//         WebDriverManager.chromedriver().setup();
+//         ChromeOptions options = new ChromeOptions();
+//         options.addArguments("--remote-allow-origins=*");
+//         driver = new ChromeDriver(options);
+//	        driver.manage().window().maximize();
 
 	    }
 	 
 	   
 	 @Test
 	 
-	 public void Test1() {
-		 driver.get("https://www.AutomationTalks.com/");
+	 public void Test1() throws InterruptedException {
+ // driver.get("https://www.AutomationTalks.com/");
+  //Thread.sleep(5000);
+		  driver.get("https://www.amazon.ca/");
 		 System.out.println("Test 1 title is  "+driver.getTitle());	 
 		 
 	 }
 	 
 @Test
 	 
-	 public void Test2() {
-		 driver.get("https://www.AutomationTalks.com/");
+	 public void Test2() throws InterruptedException {
+		 //driver.get("https://www.AutomationTalks.com/");
+		// Thread.sleep(5000);
+	  driver.get("https://www.google.com/");
 		 System.out.println("Test 2 title is  "+driver.getTitle());	 
 		 
 	 }
@@ -51,7 +55,8 @@ public class TestClass {
 @Test
 
 public void Test3() {
-	 driver.get("https://www.AutomationTalks.com/");
+	 //driver.get("https://www.AutomationTalks.com/");
+	 driver.get("https://www.techproeducation.com/");
 	 System.out.println("Test 2 title is  "+driver.getTitle());	 
 	 
 }
