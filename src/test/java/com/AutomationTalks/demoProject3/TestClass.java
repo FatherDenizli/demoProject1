@@ -1,5 +1,6 @@
 package com.AutomationTalks.demoProject3;
 
+ 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -8,23 +9,29 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+//import io.github.bonigarcia.wdm.WebDriverManager;
+ 
+
+ 
+
  
 
 public class TestClass {
 	
-	public static WebDriver driver;
+	public static WebDriver driver ;
 	
-	
-	@BeforeMethod
+	 @BeforeMethod
+		
 	    public void launchDriver() {
 
-	        WebDriverManager.chromedriver().setup();
+	       WebDriverManager.chromedriver().setup();
 	        driver=new ChromeDriver();   
 	        
 	        driver.manage().window().maximize();
- 
+
 	    }
 	 
+	   
 	 @Test
 	 
 	 public void Test1() {
@@ -58,26 +65,7 @@ public void tearDown() {
 	 
 }
 
-
-
-	 
-	 
-	 
-	 
-	 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+ 
 	
 
 }

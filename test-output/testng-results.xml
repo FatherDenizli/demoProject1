@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-11T21:37:00 EDT" name="Default suite" finished-at="2023-09-11T21:37:21 EDT" duration-ms="20915">
+  <suite started-at="2023-09-12T01:33:28 EDT" name="Default suite" finished-at="2023-09-12T01:33:49 EDT" duration-ms="20212">
     <groups>
     </groups>
-    <test started-at="2023-09-11T21:37:00 EDT" name="Default test" finished-at="2023-09-11T21:37:21 EDT" duration-ms="20915">
+    <test started-at="2023-09-12T01:33:28 EDT" name="Default test" finished-at="2023-09-12T01:33:49 EDT" duration-ms="20212">
       <class name="com.AutomationTalks.demoProject3.TestClass">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:00 EDT" name="launchDriver" finished-at="2023-09-11T21:37:04 EDT" duration-ms="3893" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:28 EDT" name="launchDriver" finished-at="2023-09-12T01:33:32 EDT" duration-ms="3872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:04 EDT" name="Test1" finished-at="2023-09-11T21:37:10 EDT" duration-ms="5612" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:32 EDT" name="Test1" finished-at="2023-09-12T01:33:37 EDT" duration-ms="4700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:10 EDT" name="tearDown" finished-at="2023-09-11T21:37:10 EDT" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:37 EDT" name="tearDown" finished-at="2023-09-12T01:33:37 EDT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:10 EDT" name="launchDriver" finished-at="2023-09-11T21:37:12 EDT" duration-ms="1908" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:37 EDT" name="launchDriver" finished-at="2023-09-12T01:33:39 EDT" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:12 EDT" name="Test2" finished-at="2023-09-11T21:37:15 EDT" duration-ms="3180" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:39 EDT" name="Test2" finished-at="2023-09-12T01:33:43 EDT" duration-ms="3510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:15 EDT" name="tearDown" finished-at="2023-09-11T21:37:15 EDT" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:43 EDT" name="tearDown" finished-at="2023-09-12T01:33:43 EDT" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:15 EDT" name="launchDriver" finished-at="2023-09-11T21:37:17 EDT" duration-ms="1950" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:43 EDT" name="launchDriver" finished-at="2023-09-12T01:33:44 EDT" duration-ms="1862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:17 EDT" name="Test3" finished-at="2023-09-11T21:37:21 EDT" duration-ms="4040" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:44 EDT" name="Test3" finished-at="2023-09-12T01:33:48 EDT" duration-ms="4013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-11T21:37:21 EDT" name="tearDown" finished-at="2023-09-11T21:37:21 EDT" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.AutomationTalks.demoProject3.TestClass@6574a52c]" started-at="2023-09-12T01:33:48 EDT" name="tearDown" finished-at="2023-09-12T01:33:49 EDT" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
