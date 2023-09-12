@@ -1,9 +1,11 @@
 package com.AutomationTalks.demoProject3;
 
-import org.junit.Test;
+ 
 
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
 
 public class APITest1 {
 	

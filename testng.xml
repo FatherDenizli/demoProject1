@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.AutomationTalks.demoProject3.TestClass"/>
-      <class name="com.AutomationTalks.APITest2.APITest1"/>
+      <class name="com.AutomationTalks.demoProject3.APITest1"/>
       
     </classes>
   </test> <!-- Test -->
