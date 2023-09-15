@@ -25,7 +25,7 @@ public class TestClass {
 	 	   
 	 @Test
 	 
-	 public void Test1() throws InterruptedException {
+	 public void Test1()     {
  
   
 		  driver.get("https://www.amazon.ca/");
@@ -36,7 +36,7 @@ public class TestClass {
 	 
 @Test
 	 
-	 public void Test2() throws InterruptedException {
+	 public void Test2()  {
 	 
 	 
 	  driver.get("https://www.google.com/");
