@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 
-public class APITest1 {
+public class APITest{
 	
 	@Test
     public void get01(){

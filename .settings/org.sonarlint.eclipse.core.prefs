@@ -1,0 +1,4 @@
+autoEnabled=true
+bindingSuggestionsDisabled=false
+eclipse.preferences.version=1
+fileExclusions=FILE\:src/test/java/com/AutomationTalks/demoProject3/TestClass.java
