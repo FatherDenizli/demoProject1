@@ -1,6 +1,5 @@
 package com.AutomationTalks.demoProject3;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -21,18 +20,16 @@ public class TestClass {
      System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-116\\chromedriver-win64\\chromedriver.exe");
        driver=new ChromeDriver();   
      driver.manage().window().fullscreen();
-       
-         
+                
 	    }
-	 
-	   
+	 	   
 	 @Test
 	 
 	 public void Test1() throws InterruptedException {
  
   
 		  driver.get("https://www.amazon.ca/");
-		Thread.sleep(5000);
+		 
 		 System.out.println("Test 1 title is  "+driver.getTitle());	 
 		 
 	 }
@@ -53,19 +50,14 @@ public void Test3() {
 	 
 	 driver.get("https://www.techproeducation.com/");
 	 System.out.println("Test 2 title is  "+driver.getTitle());	 
-	 
-}
+	 }
 
 @AfterMethod
 
 public void tearDown() {
 	 driver.close();
 	 //if test case fails then log defect in JIRA
-	  
-	 
+	  	 
 }
-
- 
-	
 
 }
