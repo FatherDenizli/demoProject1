@@ -1,7 +1,6 @@
 package com.AutomationTalks.demoProject3;
 
-import java.net.MalformedURLException;
- 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -16,7 +15,7 @@ public class TestClass {
 	
 	 @BeforeMethod
 		
-	    public void launchDriver() throws MalformedURLException {
+	    public void launchDriver() {
 
      WebDriverManager.chromedriver().setup();
      System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-116\\chromedriver-win64\\chromedriver.exe");
