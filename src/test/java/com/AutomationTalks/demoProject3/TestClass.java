@@ -17,10 +17,9 @@ public class TestClass {
 	    public void launchDriver() {
 
      WebDriverManager.chromedriver().setup();
-     System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-116\\chromedriver-win64\\chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-116\\chromedriver-win64\\chromedriver.exe");
        driver=new ChromeDriver();   
-     driver.manage().window().fullscreen();
-                
+     driver.manage().window().fullscreen();                
 	    }
 	 	   
 	 @Test

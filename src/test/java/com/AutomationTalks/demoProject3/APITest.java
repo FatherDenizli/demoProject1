@@ -1,11 +1,10 @@
 package com.AutomationTalks.demoProject3;
 
- 
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
-import static io.restassured.RestAssured.given;
 
-import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
 
 public class APITest{
 	
